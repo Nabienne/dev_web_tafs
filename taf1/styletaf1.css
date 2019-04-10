@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+#banner1 {
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+#menu{
+    min-width: 400px;
+    width: 100.1%;
+    height: 100px;
+    position: relative;
+    background: #27be6e;
+    
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    position: absolute;
+
+}
+#menu a{
+    color: #FFF;
+    background-color: #333;
+    border: 1px solid #444444;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 125px;
+
+
+}
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+#menu ul {
+    min-width: 400px;
+    float: left;
+    left: 50%;
+    padding-top: 15px;
+    position: relative;
+
+}
+#menu ul li{
+   
+    margin-left: 20px;
+    float: left;
+    list-style-type: none;
+    left: -50%;
+}
+#menu ul li a{
+text-align: center;
+padding-top: 10px;
+display: inline-block;
+background-color: #7fffbb;
+height: 30px;
+width: 200px;
+text-decoration: none;
+color: black;
+border: 1px solid #000;
+float: left;
+}
+#menu a: :hover{
+    color: #ffffff;
+    background color:#000;
+}
+#menu ul ul{
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+    left: 90%;
+}
+#menu ul li:hover ul{
+    visibility: visible;
+
+}
+#menu li:hover{
+    color: #ffff;
+
+}
+#menu ul li ul a:hover{
+    color:#FFF;
+    background-color: #000;
+
+    }
+#menu ul li a:hover{
+    color: bisque;
+    background-color: #13703f;
+}
+#banner2 {
+    display: block;
+    background-color:;
+    height: 800px;
+    width: 100%;
+}
+#contenuprincipal{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+#menu_droite
+{
+   
+    width: 24%;
+    height: 780px;
+    margin-left: 75%;
+    float: left;
+  margin-top: 5px;
+  color: black;
+}
+#haut
+{
+    width: 95%;
+    height: 45%;
+ border: 3px outset black;
+ text-align: center;
+ background-color: blue;
+ 
+}
+#haut a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+padding-top: 10px;
+display: inline-block;
+background-color:rgb(43, 168, 226);
+height: 30px;
+width: 200px;
+}
+#bas
+{
+    width: 95%;
+    height: 53%;
+ border: 3px outset black;
+ margin-top:4%;
+ text-align: center;
+ background-color: blue;
+
+}
+#bas a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+padding-top: 10px;
+display: inline-block;
+background-color:rgb(43, 168, 226);
+height: 30px;
+width: 200px;
+}
+#menu_droite :hover{
+    color: bisque;
+    background-color:black;
+}
+#footer{
+    min-width: 400px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background: black;
+    border: 5px outset black;
+}
+#footer ul{
+    min-width: 400px;
+    float: left;
+    left: 50%;
+    padding-top: 15px;
+    position: relative;
+margin-left: -60px;
+}
+#footer ul li{
+    margin-left: 20px;
+    float: left;
+    list-style-type: none;
+    position: relative;
+    left: -50%;
+}
+#footer ul li a{
+ text-align: center;
+padding-top: 10px;
+display: inline-block;
+height: 30px;
+width: 200px;
+text-decoration: none;
+color:#27be6e;
+border: 1px outset black;
+}
+#footer ul li a:hover{
+    color: bisque;
+background-color: #45c290
+}
+
